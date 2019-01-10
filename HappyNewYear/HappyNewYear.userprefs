@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewYearWorld\Shader\GlassShader.shader">
     <Files>
-      <File FileName="Assets\NewYearWorld\Shader\GlassShader.shader" Line="19" Column="15" />
+      <File FileName="Assets\NewYearWorld\Shader\GlassShader.shader" Line="30" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
