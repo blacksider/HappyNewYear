@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewYearWorld\Shader\GlassShader.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Utility\DragRigidbody.cs">
     <Files>
       <File FileName="Assets\NewYearWorld\Shader\GlassShader.shader" Line="30" Column="18" />
+      <File FileName="Assets\Standard Assets\Utility\DragRigidbody.cs" Line="23" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
