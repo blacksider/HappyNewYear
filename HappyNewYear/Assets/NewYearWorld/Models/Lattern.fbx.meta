@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5b99401de9841294482f09f56de7d034
+guid: c544aaad812238d4e82726a90a2c3862
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -24,22 +24,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Latern_body
-    second: {fileID: 2100000, guid: 962937c141350ad439d4c4436c6cbfab, type: 2}
+    second: {fileID: 2100000, guid: 5591aae49c22eb746a2af963c6521cea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Latern_column
-    second: {fileID: 2100000, guid: 6031cc4f9d2804b419e6801f93b0c910, type: 2}
+    second: {fileID: 2100000, guid: 6bed497c08329f84382e32588c050d30, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Latern_ring
-    second: {fileID: 2100000, guid: 529a928c93297ac4e94fd697375c0edf, type: 2}
+    second: {fileID: 2100000, guid: 2bbfd56ea39684c4589d7d6d7f801371, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Latern_ring_2
-    second: {fileID: 2100000, guid: 2f1f1b45329a7444b896dc24ae82af28, type: 2}
+    second: {fileID: 2100000, guid: eb774548aa91ab34da6f93cad594ccf0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
