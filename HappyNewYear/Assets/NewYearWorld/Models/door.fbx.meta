@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: ffc6e9c07e332b84792d430ed48112e4
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube.001
+    100002: //RootNode
+    100004: House_above.001
+    100006: House_door_left.001
+    100008: House_door_right.001
+    100010: House_roof.001
+    100012: House_roof.002
+    100014: House_stair.001
+    100016: House_window.001
+    100018: House_window.002
+    100020: House_window.003
+    100022: House_window.004
+    100024: House_window.005
+    400000: Cube.001
+    400002: //RootNode
+    400004: House_above.001
+    400006: House_door_left.001
+    400008: House_door_right.001
+    400010: House_roof.001
+    400012: House_roof.002
+    400014: House_stair.001
+    400016: House_window.001
+    400018: House_window.002
+    400020: House_window.003
+    400022: House_window.004
+    400024: House_window.005
+    2100000: Base
+    2100002: House_lower
+    2100004: Wood_base
+    2100006: Roof
+    2100008: Window_block
+    2100010: Window_paint
+    2100012: Stair
+    2300000: Cube.001
+    2300002: House_above.001
+    2300004: House_door_left.001
+    2300006: House_door_right.001
+    2300008: House_roof.001
+    2300010: House_roof.002
+    2300012: House_stair.001
+    2300014: House_window.001
+    2300016: House_window.002
+    2300018: House_window.003
+    2300020: House_window.004
+    2300022: House_window.005
+    3300000: Cube.001
+    3300002: House_above.001
+    3300004: House_door_left.001
+    3300006: House_door_right.001
+    3300008: House_roof.001
+    3300010: House_roof.002
+    3300012: House_stair.001
+    3300014: House_window.001
+    3300016: House_window.002
+    3300018: House_window.003
+    3300020: House_window.004
+    3300022: House_window.005
+    4300000: Cube.001
+    4300002: House_roof.001
+    4300004: House_roof.002
+    4300006: House_window.005
+    4300008: House_window.004
+    4300010: House_window.003
+    4300012: House_window.002
+    4300014: House_door_left.001
+    4300016: House_door_right.001
+    4300018: House_window.001
+    4300020: House_above.001
+    4300022: House_stair.001
+    7400000: Cube.001|Circle.001Action
+    7400002: Cube.001|House_door_left.001Action
+    7400004: Cube.001|SunAction
+    7400006: House_roof.001|Circle.001Action
+    7400008: House_roof.001|House_door_left.001Action
+    7400010: House_roof.001|SunAction
+    7400012: House_roof.002|Circle.001Action
+    7400014: House_roof.002|House_door_left.001Action
+    7400016: House_roof.002|SunAction
+    7400018: House_window.005|Circle.001Action
+    7400020: House_window.005|House_door_left.001Action
+    7400022: House_window.005|SunAction
+    7400024: House_window.004|Circle.001Action
+    7400026: House_window.004|House_door_left.001Action
+    7400028: House_window.004|SunAction
+    7400030: House_window.003|Circle.001Action
+    7400032: House_window.003|House_door_left.001Action
+    7400034: House_window.003|SunAction
+    7400036: House_window.002|Circle.001Action
+    7400038: House_window.002|House_door_left.001Action
+    7400040: House_window.002|SunAction
+    7400042: House_door_left.001|Circle.001Action
+    7400044: House_door_left.001|House_door_left.001Action
+    7400046: House_door_left.001|SunAction
+    7400048: House_door_right.001|Circle.001Action
+    7400050: House_door_right.001|House_door_left.001Action
+    7400052: House_door_right.001|SunAction
+    7400054: House_window.001|Circle.001Action
+    7400056: House_window.001|House_door_left.001Action
+    7400058: House_window.001|SunAction
+    7400060: House_above.001|Circle.001Action
+    7400062: House_above.001|House_door_left.001Action
+    7400064: House_above.001|SunAction
+    7400066: House_stair.001|Circle.001Action
+    7400068: House_stair.001|House_door_left.001Action
+    7400070: House_stair.001|SunAction
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 97b0ed9735cb325489ea05f03c8ddf53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House_lower
+    second: {fileID: 2100000, guid: 8aa3fd8aac9ccc445b7c68907af5758f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: d68a7650bea4c6c44abb7c877eef5e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stair
+    second: {fileID: 2100000, guid: fac2a647adf321c409a63eb8eaccae65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_block
+    second: {fileID: 2100000, guid: 2043255a0f2ca9f4295236b86bc23c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_paint
+    second: {fileID: 2100000, guid: 4282e3012fca3354db2dfe1ff6dc1af2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_base
+    second: {fileID: 2100000, guid: bd7ad1172ffc69749963ebb2721c786e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 16
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
