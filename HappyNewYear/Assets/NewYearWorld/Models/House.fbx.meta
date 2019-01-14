@@ -379,7 +379,7 @@ ModelImporter:
     indexFormat: 0
     secondaryUVAngleDistortion: 1
     secondaryUVAreaDistortion: 1
-    secondaryUVHardAngle: 60
+    secondaryUVHardAngle: 80
     secondaryUVPackMargin: 16
     useFileScale: 1
   tangentSpace:
