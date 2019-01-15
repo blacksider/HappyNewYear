@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 663126ec78c234e418183fe905cd3ade
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube.002
+    100002: House_above.002
+    100004: House_door_left.002
+    100006: House_door_right.002
+    100008: House_roof.003
+    100010: House_roof.004
+    100012: //RootNode
+    100014: House_window.009
+    100016: House_window.010
+    400000: Cube.002
+    400002: House_above.002
+    400004: House_door_left.002
+    400006: House_door_right.002
+    400008: House_roof.003
+    400010: House_roof.004
+    400012: //RootNode
+    400014: House_window.009
+    400016: House_window.010
+    2100000: Base
+    2100002: Window_block
+    2100004: Wood_base
+    2100006: Window_paint
+    2100008: Roof
+    2100010: House_lower
+    2300000: Cube.002
+    2300002: House_above.002
+    2300004: House_door_left.002
+    2300006: House_door_right.002
+    2300008: House_roof.003
+    2300010: House_roof.004
+    2300012: House_window.009
+    2300014: House_window.010
+    3300000: Cube.002
+    3300002: House_above.002
+    3300004: House_door_left.002
+    3300006: House_door_right.002
+    3300008: House_roof.003
+    3300010: House_roof.004
+    3300012: House_window.009
+    3300014: House_window.010
+    4300000: House_above.002
+    4300002: House_window.010
+    4300004: House_door_right.002
+    4300006: House_door_left.002
+    4300008: House_window.009
+    4300010: House_roof.004
+    4300012: House_roof.003
+    4300014: Cube.002
+    7400000: House_above.002|House_above.002Action
+    7400002: House_above.002|House_roof.003Action
+    7400004: House_above.002|House_roof.004Action
+    7400006: House_window.010|House_above.002Action
+    7400008: House_window.010|House_roof.003Action
+    7400010: House_window.010|House_roof.004Action
+    7400012: House_door_right.002|House_above.002Action
+    7400014: House_door_right.002|House_roof.003Action
+    7400016: House_door_right.002|House_roof.004Action
+    7400018: House_window.009|House_above.002Action
+    7400020: House_window.009|House_roof.003Action
+    7400022: House_window.009|House_roof.004Action
+    7400024: House_roof.004|House_above.002Action
+    7400026: House_roof.004|House_roof.003Action
+    7400028: House_roof.004|House_roof.004Action
+    7400030: House_roof.003|House_above.002Action
+    7400032: House_roof.003|House_roof.003Action
+    7400034: House_roof.003|House_roof.004Action
+    7400036: Cube.002|House_above.002Action
+    7400038: Cube.002|House_roof.003Action
+    7400040: Cube.002|House_roof.004Action
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 97b0ed9735cb325489ea05f03c8ddf53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House_lower
+    second: {fileID: 2100000, guid: 8aa3fd8aac9ccc445b7c68907af5758f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: d68a7650bea4c6c44abb7c877eef5e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_block
+    second: {fileID: 2100000, guid: 2043255a0f2ca9f4295236b86bc23c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_paint
+    second: {fileID: 2100000, guid: 4282e3012fca3354db2dfe1ff6dc1af2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_base
+    second: {fileID: 2100000, guid: bd7ad1172ffc69749963ebb2721c786e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 16
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
