@@ -345,8 +345,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1511733387088542}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.561, y: -0.88, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 4195582985800982}
   - {fileID: 4244981830161056}
@@ -822,8 +822,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.18, y: 0.18, z: 0.04}
-  m_Center: {x: -0.03, y: 0.058416713, z: -0.00000017881393}
+  m_Size: {x: 0.25349537, y: 0.18, z: 0.04}
+  m_Center: {x: -0.0015634298, y: 0.058416724, z: -0.00000017850348}
 --- !u!95 &95857834191117706
 Animator:
   serializedVersion: 3
@@ -1458,7 +1458,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.1292395, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0069816113, y: -1.1125689, z: 1.0000422}
+  m_ConnectedAnchor: {x: 0.0069816858, y: -1.1125689, z: 1.0000417}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -1552,7 +1552,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.000000059604645, z: 0.000000009837095}
+  m_ConnectedAnchor: {x: -0.0000000037252903, y: -0.000000059604645, z: 0.000000009837095}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
