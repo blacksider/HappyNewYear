@@ -51,6 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DynamicBone\Demo\DynamicBoneDemo1.cs" />
+     <Compile Include="Assets\DynamicBone\Scripts\DynamicBone.cs" />
+     <Compile Include="Assets\DynamicBone\Scripts\DynamicBoneCollider.cs" />
+     <Compile Include="Assets\DynamicBone\Scripts\DynamicBoneColliderBase.cs" />
+     <Compile Include="Assets\DynamicBone\Scripts\DynamicBonePlaneCollider.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -102,6 +107,7 @@
      <None Include="Assets\Toybox\FloatPickup\Readme.txt" />
      <None Include="Assets\Toybox\AnimatorHealthSystem\Readme.txt" />
      <None Include="Assets\Toybox\Readme.txt" />
+     <None Include="Assets\DynamicBone\ReadMe.txt" />
      <None Include="Assets\Toybox\PropSpawner\Readme.txt" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="UnityEngine.CoreModule">
