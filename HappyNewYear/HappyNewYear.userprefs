@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\LightProbePlacement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewYearWorld\Shader\GlassShader.shader">
     <Files>
-      <File FileName="Assets\Editor\LightProbePlacement.cs" Line="28" Column="20" />
+      <File FileName="Assets\NewYearWorld\Shader\GlassShader.shader" Line="40" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
