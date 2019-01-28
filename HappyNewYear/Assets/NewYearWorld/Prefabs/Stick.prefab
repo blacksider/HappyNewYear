@@ -439,6 +439,17 @@ MonoBehaviour:
       ParameterObjects:
       - {fileID: 1147252565331336}
       ParameterBytes: 0001000000ffffffff010000000000000010010000000100000009020000000c0300000016556e697479456e67696e652e436f72654d6f64756c65050200000015556e697479456e67696e652e5472616e73666f726d010000000470617468010300000006040000000b2f5265736574506f696e740b
+    - Name: TeleportTo
+      EventType: 15
+      ParameterString: Reset
+      ParameterBoolOp: 0
+      ParameterBool: 0
+      ParameterFloat: 0
+      ParameterInt: 0
+      ParameterObject: {fileID: 0}
+      ParameterObjects:
+      - {fileID: 1032533597183486}
+      ParameterBytes: 0001000000ffffffff010000000000000010010000000100000009020000000c0300000016556e697479456e67696e652e436f72654d6f64756c65050200000015556e697479456e67696e652e5472616e73666f726d010000000470617468010300000006040000000b2f5265736574506f696e740b
     Name: Unnamed
     Others: []
     Key: 0
@@ -455,6 +466,10 @@ MonoBehaviour:
     Timer: 0
     DataElementIdx: 0
     DataStorageShadowValues:
+    - ParameterString: 
+      ParameterBoolOp: 
+      ParameterFloat: 
+      ParameterInt: 
     - ParameterString: 
       ParameterBoolOp: 
       ParameterFloat: 
@@ -499,7 +514,7 @@ MonoBehaviour:
       ParameterBoolOp: 
       ParameterFloat: 
       ParameterInt: 
-    AfterSeconds: 0
+    AfterSeconds: 0.1
     ProbabilityLock: 
     Probabilities: []
     MidiChannel: 0
