@@ -75,6 +75,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4120211090363814}
   - component: {fileID: 95256039814665616}
+  - component: {fileID: 114174850447307984}
+  - component: {fileID: 114147417780253104}
   m_Layer: 0
   m_Name: Window
   m_TagString: Untagged
@@ -106,7 +108,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1774243354518092}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.00028800964, y: 4.76067, z: -0.14337459}
+  m_LocalPosition: {x: 3.100288, y: 1.5, z: -0.14337459}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4990332755804938}
@@ -269,80 +271,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &114170820386292494
+--- !u!114 &114147417780253104
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1237159828670254}
+  m_GameObject: {fileID: 1774243354518092}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1579128511, guid: f78c4655b33cb5741983dc02e08899cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactTextPlacement: {fileID: 0}
-  interactText: Open
+  interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
   isHidden: 0
   UsesAdvancedOptions: 1
   ShowHelp: 0
   Triggers:
-  - TriggerType: 17
-    BroadcastType: 2
-    Events:
-    - Name: 
-      EventType: 3
-      ParameterString: Click
-      ParameterBoolOp: 0
-      ParameterBool: 0
-      ParameterFloat: 0
-      ParameterInt: 0
-      ParameterObject: {fileID: 0}
-      ParameterObjects:
-      - {fileID: 1774243354518092}
-      ParameterBytes: 
-    - Name: 
-      EventType: 15
-      ParameterString: SetOpenned
-      ParameterBoolOp: 0
-      ParameterBool: 0
-      ParameterFloat: 0
-      ParameterInt: 0
-      ParameterObject: {fileID: 0}
-      ParameterObjects:
-      - {fileID: 1237159828670254}
-      ParameterBytes: 
-    Name: Unnamed
-    Others: []
-    Key: 0
-    TriggerIndividuals: 0
-    Layers:
-      serializedVersion: 2
-      m_Bits: 0
-    Repeat: 0
-    LowPeriodTime: 0
-    HighPeriodTime: 0
-    ResetOnEnable: 0
-    EventFired: 0
-    Duration: 0
-    Timer: 0
-    DataElementIdx: 0
-    DataStorageShadowValues:
-    - ParameterString: 
-      ParameterBoolOp: 
-      ParameterFloat: 
-      ParameterInt: 
-    - ParameterString: 
-      ParameterBoolOp: 
-      ParameterFloat: 
-      ParameterInt: 
-    AfterSeconds: 0
-    ProbabilityLock: 
-    Probabilities: []
-    MidiChannel: 0
-    MidiNote: 0
-    OscAddr: 
   - TriggerType: 0
     BroadcastType: 2
     Events:
@@ -377,12 +324,86 @@ MonoBehaviour:
       ParameterBoolOp: 
       ParameterFloat: 
       ParameterInt: 
-    AfterSeconds: 0.1
+    AfterSeconds: 0
     ProbabilityLock: 
     Probabilities: []
     MidiChannel: 0
     MidiNote: 0
     OscAddr: 
+--- !u!114 &114170820386292494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237159828670254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1579128511, guid: f78c4655b33cb5741983dc02e08899cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Open
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  isHidden: 0
+  UsesAdvancedOptions: 1
+  ShowHelp: 0
+  Triggers:
+  - TriggerType: 17
+    BroadcastType: 2
+    Events:
+    - Name: 
+      EventType: 3
+      ParameterString: Click
+      ParameterBoolOp: 0
+      ParameterBool: 0
+      ParameterFloat: 0
+      ParameterInt: 0
+      ParameterObject: {fileID: 0}
+      ParameterObjects:
+      - {fileID: 1774243354518092}
+      ParameterBytes: 
+    Name: Unnamed
+    Others: []
+    Key: 0
+    TriggerIndividuals: 0
+    Layers:
+      serializedVersion: 2
+      m_Bits: 0
+    Repeat: 0
+    LowPeriodTime: 0
+    HighPeriodTime: 0
+    ResetOnEnable: 0
+    EventFired: 0
+    Duration: 0
+    Timer: 0
+    DataElementIdx: 0
+    DataStorageShadowValues:
+    - ParameterString: 
+      ParameterBoolOp: 
+      ParameterFloat: 
+      ParameterInt: 
+    AfterSeconds: 0
+    ProbabilityLock: 
+    Probabilities: []
+    MidiChannel: 0
+    MidiNote: 0
+    OscAddr: 
+--- !u!114 &114174850447307984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1774243354518092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -339397700, guid: f78c4655b33cb5741983dc02e08899cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Events: []
+  CombinedNetworkId: -1
+  _dispatcher: {fileID: 0}
+  _registered: 0
 --- !u!114 &114188975254824544
 MonoBehaviour:
   m_ObjectHideFlags: 1

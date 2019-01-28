@@ -83,7 +83,7 @@ Material:
     - _MinBorderY: 0
     - _MinBorderZ: -0.5
     - _Mode: 0
-    - _NoiseSize: 1.14
+    - _NoiseSize: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
