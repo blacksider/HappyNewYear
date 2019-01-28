@@ -11,6 +11,10 @@ ModelImporter:
     100010: Sphere_001
     100012: candle_002
     100014: Circle_001
+    100016: Cylinder
+    100018: Stick
+    100020: Bottle_002
+    100022: dirt
     400000: Bottle
     400002: Bottle_001
     400004: Handle
@@ -19,12 +23,17 @@ ModelImporter:
     400010: Sphere_001
     400012: candle_002
     400014: Circle_001
+    400016: Cylinder
+    400018: Stick
+    400020: Bottle_002
+    400022: dirt
     2100000: Bottle
     2100002: unnamed
     2100004: wax_001
     2100006: string_001
     2100008: Candle_needle
     2100010: Candle_set
+    2100012: Bottle_dirt
     2300000: Bottle
     2300002: Bottle_001
     2300004: Handle
@@ -32,6 +41,10 @@ ModelImporter:
     2300008: Sphere_001
     2300010: candle_002
     2300012: Circle_001
+    2300014: Cylinder
+    2300016: Stick
+    2300018: Bottle_002
+    2300020: dirt
     3300000: Bottle
     3300002: Bottle_001
     3300004: Handle
@@ -39,6 +52,10 @@ ModelImporter:
     3300008: Sphere_001
     3300010: candle_002
     3300012: Circle_001
+    3300014: Cylinder
+    3300016: Stick
+    3300018: Bottle_002
+    3300020: dirt
     4300000: Bottle_001
     4300002: Handle
     4300004: Bottle
@@ -46,9 +63,48 @@ ModelImporter:
     4300008: Sphere
     4300010: candle_002
     4300012: Circle_001
+    4300014: Cylinder
+    4300016: Stick
+    4300018: dirt
+    4300020: Bottle_002
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottle
+    second: {fileID: 2100000, guid: 69e3bd7f9f7c30f439fcc492161bb684, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottle_dirt
+    second: {fileID: 2100000, guid: b0b30eb165696384192d9693221a5c66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_needle
+    second: {fileID: 2100000, guid: d0cef35e0435cae40b44086b32bcb644, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_set
+    second: {fileID: 2100000, guid: fffb70e8c52845b498a88efdae3e7ff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: string_001
+    second: {fileID: 2100000, guid: 7fcbd05c39cee814fa86ecd1b1b3bff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: f1ab2d5e294576f4b8b59f7c63bc15a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wax_001
+    second: {fileID: 2100000, guid: d82ba762fda997742940a65f43038165, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -86,7 +142,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -94,16 +150,16 @@ ModelImporter:
     preserveHierarchy: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
-    secondaryUVPackMargin: 4
+    secondaryUVPackMargin: 16
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
